@@ -17,9 +17,7 @@ private val retrofit = Retrofit.Builder()
 // Defines how Retrofit talks with web server using HTTP requests
 interface MarsApiService {
     @GET("photos")
-    suspend fun getPhotos(): String{
-        return ""// TODO: complete
-    }
+    suspend fun getPhotos(): String
 }
 // Singleton - single object, available in public, new obj won't be created on accessing
 // MarsApi.retrofitService the second time
