@@ -69,4 +69,7 @@ dependencies {
 
     // Moshi
     implementation 'com.squareup.moshi:moshi-kotlin:1.14.0'
+
+    // Coil - Coroutine Image Loader
+    implementation "io.coil-kt:coil:2.2.2"
 }
