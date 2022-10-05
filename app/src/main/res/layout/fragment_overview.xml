@@ -35,8 +35,10 @@
            android:layout_width="0dp"
            android:layout_height="0dp"
            android:padding="6dp"
+           android:clipToPadding="false"
            app:spanCount="2"
            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+           app:listData="@{viewModel.photos}"
 
            app:layout_constraintBottom_toBottomOf="parent"
            app:layout_constraintTop_toTopOf="parent"
