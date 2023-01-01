@@ -16,6 +16,16 @@ The app also leverages [ViewModel](https://developer.android.com/topic/libraries
 [Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding 
 adapters.
 
+## Previews
+
+<p align="center">
+<img src="previews/ss (1).png" alt="drawing" width="270px" />
+<br>
+</p>
+
+## Download APK
+Go to the [Releases](https://github.com/nijuyonkadesu/MarsPhotos/releases) to download the latest APK
+
 Pre-requisites
 --------------
 
